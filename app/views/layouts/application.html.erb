@@ -10,5 +10,10 @@
 
   <body>
     <%= yield %>
+    <br>
+    
+    <%= link_to('Go Home', {action: 'home'}) %> | 
+    <%= link_to('More Info', {action: 'info'}) %> | 
+    <%= link_to('Buy Now', {action: 'purchase'}) %>
   </body>
 </html>
